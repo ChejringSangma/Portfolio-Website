@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chejring's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f901213869.js" crossorigin="anonymous"></script>
+</head>
+
+<body></body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <div class="logo">Chejring's Portfolio</div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="header-txt">
+        <div>Hi, my name is <span class="purple">Chejring</span></div>
+        <div>and I'm a passionate</div>
+        <span id="element"></span>
+    </div>
+</div>
+
+<!-------------about---------------->
+<div id="about">
+    <div class="container2">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="developer.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam dicta dolorum itaque dolore quae
+                    nihil
+                    magnam fugit? Consequuntur numquam veritatis sed vero amet sint ullam aliquid dolorum.
+                    Voluptate,
+                    nesciunt perferendis.</p>
+                <div class="tab-titles">
+                    <p class="tablinks activelinks" onclick="opentab('skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                    <p class="tablinks" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tabcontents activetab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                    </ul>
+                </div>
+                <div class="tabcontents" id="experience">
+                    <ul>
+                        <li><span>2022-2024</span><br>Web Developer at Dreamzlab</li>
+                        <li><span>April,2022-July,2022</span><br>Web Developer Intern at Dreamzlab</li>
+                    </ul>
+                </div>
+                <div class="tabcontents" id="education">
+                    <ul>
+                        <li><span>2022-2024</span><br>MCA at Sinhgad Institute of Business Administration and
+                            Research, Pune</li>
+                        <li><span>2019-2022</span><br>BCA(Science) at Abeda Inamdar Senior College, Pune</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------service-------------->
+<div id="services">
+    <div class="container2">
+        <h1 class="subtitle">Services</h1>
+        <div class="servicelist">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam ratione nihil quibusdam maiores
+                    obcaecati illum, recusandae repudiandae ex ab eaque labore hic quia optio ipsum aspernatur eius
+                    id ipsa? Laboriosam!
+                </p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>Frontend Design</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam ratione nihil quibusdam maiores
+                    obcaecati illum, recusandae repudiandae ex ab eaque labore hic quia optio ipsum aspernatur eius
+                    id ipsa? Laboriosam!
+                </p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h2>Web Support</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam ratione nihil quibusdam maiores
+                    obcaecati illum, recusandae repudiandae ex ab eaque labore hic quia optio ipsum aspernatur eius
+                    id ipsa? Laboriosam!
+                </p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------portfolio-------------->
+<div id="portfolio">
+    <div class="container2">
+        <h1 class="subtitle">Portfolio</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="bg.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="bg.jpg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connect you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="bg.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Art App</h3>
+                    <p>The app connect you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+
+<!----------------contact---------------->
+<div id="Contact">
+    <div class="container2">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> chejrings@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +919373287934, +918794487742</p>
+                <div class="socialicons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-github"></i></a>
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Chejring R. Sangma Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contactright">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © chejringportfolio.com | All rights reserved</p>
+    </div>
+</div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Engineer', 'Data Scientist'],
+            typeSpeed: 50,
+        });
+
+        /* about section */
+        var tablink = document.getElementsByClassName("tablinks");
+        var tabcontent = document.getElementsByClassName("tabcontents");
+
+        function opentab(tabname) {
+            for (tablnk of tablink) {
+                tablnk.classList.remove("activelinks");
+            }
+            for (tabcontnt of tabcontent) {
+                tabcontnt.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelinks");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+    </script>
+
+    <script>
+        var vsidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            vsidemenu.style.right = 0;
+        }
+        function closemenu(){
+            vsidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxdZFw5i6iTVdbDq8sfbub1OTf28AneXaC0JA-nm0c5LoG-NuhUWmOfW5uJ0HKDEDQ-/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },3000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+    </body>
+
+</html>
